@@ -1,0 +1,143 @@
+canvas{
+    background-color: #E8E8E8;	
+    margin-top: 15px;
+    display:block;
+}
+/*Colours*/
+.c1{
+    background-color:#EA2027;
+}
+.c2{
+    background-color:#B53471;
+}
+.c3{
+    background-color:#833471;
+}
+.c4{
+    background-color:#7158e2;
+}
+.c5{
+    background-color:#5758BB;
+}
+.c6{
+    background-color:#009432;
+}
+.c7{
+    background-color:#1289A7;
+}
+.c8{
+    background-color:#12CBC4;
+}
+.c9{
+    background-color:#54a0ff;
+}
+.c10{
+    background-color:#2e86de;
+}
+.c11{
+    background-color:#A3CB38;
+}
+.c12{
+    background-color:#C4E538;
+}
+.c13{
+    background-color:#f6e58d;
+}
+.c14{
+    background-color:#FFC312;
+}
+.c15{
+    background-color:#F79F1F;
+}
+.c16{
+    background-color:#2f3640;
+}
+.c17{
+    background-color:#3c6382;
+}
+.c18{
+    background-color:#a4b0be;
+}
+.c19{
+    background-color:#624d35;
+}
+.c20{
+    background-color:#EE5A24;
+}
+.center-color{
+    display: flex;
+    justify-content: center;
+}
+img{
+    cursor:pointer;
+    margin: 5px;
+}
+.c1, .c2, .c3, .c4, .c5, 
+.c6, .c7, .c8, .c9, .c10, 
+.c11, .c12, .c13, .c14, .c15, 
+.c16, .c17, .c18, .c19, .c20{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.line1, .line2, .line3, .line4{
+    margin: 10px;
+    border-radius: initial;
+    width: 300px;
+    cursor: pointer;
+}
+.line1{
+    height: 2px;
+}
+.line2{
+    height: 8px;
+}
+.line3{
+    height: 15px;
+}
+.line4{
+    height: 22px;
+}
+
+/*media query para readaptar canvas segun el resize*/
+
+@media screen and (max-width: 1300px) {
+    canvas{
+        width:650px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    canvas{
+        width:550px;
+    }
+}
+@media screen and (max-width: 956px) {
+    canvas{
+        width:450px;
+    }
+}
+@media screen and (max-width: 767px) {
+    canvas{
+        width:750px;
+    }
+}
+@media screen and (max-width: 650px) {
+    canvas{
+        width: 600px;;
+    }
+}
+@media screen and (max-width: 550px) {
+    canvas{
+        width: 400px;;
+    }
+}
+
+
+
+

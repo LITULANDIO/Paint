@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="../assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <title>Canvas - Paint</title>
+</head>
+<body>
+            <div id="full-content" class="row">
+                <div class="col-md-6 col-xs-12">
+                        <canvas id="paint" width=800 height=600 onmousemove="drawing(event);" onmousedown="enable();" onmouseup="disable();"></canvas>
+                </div>
+                <div class="col-md-offset-3"></div>
+                <div class="col-md-6 col-xs-12 text-center">
+                    <img src="../assets/img/deshacer.png" title="Borrar" onclick="delet();"/>
+                    <img src="../assets/img/rehacer.png" title="Rehacer" onclick="recovery();"/>
+                    <h4 class="text">Select a colour:</h4>
+                    <div class="row center-color">
+                       <div class="c1" onclick="changeColor('#EA2027');"></div>
+                       <div class="c2" onclick="changeColor('#B53471');"></div>
+                       <div class="c3" onclick="changeColor('#833471');"></div>
+                       <div class="c4" onclick="changeColor('#7158e2');"></div>
+                       <div class="c5" onclick="changeColor('#5758BB');"></div>
+                   </div>
+                   <div class="row center-color">
+                        <div class="c6" onclick="changeColor('#009432');"></div>
+                        <div class="c7" onclick="changeColor('#1289A7');"></div>
+                        <div class="c8" onclick="changeColor('#12CBC4');"></div>
+                        <div class="c9" onclick="changeColor('#54a0ff');"></div>
+                        <div class="c10" onclick="changeColor('#2e86de')"></div>
+                   </div>
+                   <div class="row center-color">
+                        <div class="c11" onclick="changeColor('#A3CB38');"></div>
+                        <div class="c12" onclick="changeColor('#C4E538');"></div>
+                        <div class="c13" onclick="changeColor('#f6e58d');"></div>
+                        <div class="c14" onclick="changeColor('#FFC312');"></div>
+                        <div class="c15" onclick="changeColor('#F79F1F');"></div>
+                   </div>
+                   <div class="row center-color">
+                        <div class="c16" onclick="changeColor('#2f3640');"></div>
+                        <div class="c17" onclick="changeColor('#3c6382');"></div>
+                        <div class="c18" onclick="changeColor('#a4b0be');"></div>
+                        <div class="c19" onclick="changeColor('#624d35');"></div>
+                        <div class="c20" onclick="changeColor('#EE5A24');"></div>
+                    </div>
+                   <h4 class="text">Select Line Weight:</h4>
+
+                   <div class="row center-color">
+                        <div class="c16 line1" onclick="sizeLine(2)"></div>
+                   </div>
+                   <div class="row center-color">
+                        <div class="c16 line2" onclick="sizeLine(8)"></div>
+                    </div>
+                    <div class="row center-color">
+                        <div class="c16 line3" onclick="sizeLine(15)"></div>
+                    </div>
+                    <div class="row center-color">
+                        <div class="c16 line4" onclick="sizeLine(22)"></div>
+                    </div>
+                </div>
+                
+            </div>
+<script type="text/javascript" src="../js/paint.js"></script>
+</body>
+</html>
