@@ -19,3 +19,6 @@ Una vez instalado el node_modules, mediante consola os situáis en la raíz del 
 ```
  jasmine spec/paintSpec.js
 ```
+
+Resultado:
+![paint](../assets/img/paint.jpg)
