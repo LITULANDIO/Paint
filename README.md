@@ -21,4 +21,4 @@ Una vez instalado el node_modules, mediante consola os situáis en la raíz del 
 ```
 
 Resultado:
-![paint](../assets/img/paint.jpg)
+![paint](./assets/img/paint.jpg)
