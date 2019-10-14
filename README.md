@@ -14,7 +14,7 @@ Se han realizado tests con Jasmine, hay que instalar las dependencias haciendo:
 ```
 npm install
 ```
-Una vez instalo el node_modules, mediante consola os situáis en la raíz del proyecto y lanzáis el comando:
+Una vez instalado el node_modules, mediante consola os situáis en la raíz del proyecto y lanzáis el comando:
 
 ```
  jasmine spec/paintSpec.js
