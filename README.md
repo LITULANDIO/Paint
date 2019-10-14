@@ -20,6 +20,6 @@ Una vez instalado el node_modules, mediante consola os situáis en la raíz del 
  jasmine spec/paintSpec.js
 ```
 Resultado:
-![paint](../aassets/img/paint.jpg)
+![paint](https://github.com/LITULANDIO/paint/blob/master/assets/img/paint-atrapalo.png)
 
 
