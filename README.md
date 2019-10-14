@@ -3,6 +3,7 @@
 - Se ha utilizado una arquitectura SPA ( Single Page Applicattions )
 - HTML5
 - CSS3 - mediaquery
+- Bootstrap 4
 - Vanilla js
 - npm 
 - Jasmine 
